@@ -37,8 +37,9 @@ export default function StatisticsChart() {
         min: 1,
         max: 5,
         ticks: {
+          stepSize: 1,
           callback: (value) => `${value}M`,
-          color: '#94a3b8', // slate-400
+          color: '#94a3b8', 
         },
         grid: {
           display: false,

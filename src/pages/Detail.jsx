@@ -18,11 +18,9 @@ export default function Detail() {
         <option>Deposit</option>
         <option>Withdraw</option>
       </select>
-
         }
       />
       <ActivitySection />
-      {/* Tambahkan grafik statistik dan history di sini */}
     </>
   );
 }

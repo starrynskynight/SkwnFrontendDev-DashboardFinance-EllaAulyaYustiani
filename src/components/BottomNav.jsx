@@ -9,8 +9,8 @@ export default function BottomNav() {
         <NavItem icon={<FaClock />} />
         <NavItem icon={<FaCommentAlt />} />
         <Link to="/profile">
-  <NavItem icon={<FaUser />} />
-</Link>
+          <NavItem icon={<FaUser />} />
+        </Link>
       </div>
     </div>
   );

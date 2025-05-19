@@ -5,9 +5,8 @@ import SectionHeader from '../components/SectionHeader';
 
 export default function Home() {
   return (
-    <div className="bg-gray-50 min-h-screen pb-14 overflow-hidden">
+    <div className="bg-white min-h-screen pb-14 overflow-hidden">
       <div className="max-w-[430px] mx-auto">
-        {/* Header dan konten */}
         <div className="flex items-center justify-between p-4">
           <div>
             <p className="text-sm text-gray-500">Hello,</p>
